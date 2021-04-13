@@ -8,5 +8,10 @@ def hello_world():
     return 'Hello World!'
 
 
+@app.route('/test')
+def hello_world():
+    return 'test World!'
+
+
 if __name__ == '__main__':
     app.run()
